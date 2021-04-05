@@ -7,8 +7,11 @@ Here you will find the software I have developed to monitor the PC hardware from
 There are only a small number of files:
 
 The C# program : Program.cs
+
 The Arduino program : Serial_TO_Screen.ino
+
 The library : OpenHardwareMonitorLib.dll
+
 
 The library can also be obtained from their official website, by downloading and installing the Open Hardware Monitor software from this URL: https://openhardwaremonitor.org/downloads/
 
