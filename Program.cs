@@ -162,8 +162,7 @@ namespace Get_Hardware_Info
             try
             {
                 SerialPort port;
-                port = new SerialPort("COM6", 9600, Parity.None, 8, StopBits.One);
-                port.Open();
+                port = new SerialPort("COM6", 9600, Parity.None, 8, StopBits.One);  /* Here you must replace COM6 with your arduino COM PORT. */
                 UpdateInfo(port);
             }
             catch (Exception ex) /* Howston we have a problem. */
